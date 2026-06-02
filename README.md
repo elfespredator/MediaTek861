@@ -58,3 +58,15 @@ MediaTek86/
 │   ├── FrmPersonnel.cs
 │   └── FrmAbsences.cs
 └── mediatek86.sql      ← Script BDD complet
+
+Diagramme de paquetages
+MediaTek86
+├── vue          → controller
+├── controller   → dal
+├── dal          → bddmanager
+├── dal          → model
+└── bddmanager   → MySQL
+
+Auteur
+Développé dans le cadre de l'atelier 2 — BTS SIO
+ESN InfoTech Services 86 / Réseau MediaTek86
